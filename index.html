@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/615c3e5c9c.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio</title>
 </head>
-<body>
+<body id="about">
     <header>
         <div class="logo">Antonio Oviedo</div>
         <div class="hamburger">
@@ -17,20 +18,124 @@
         <div class="nav-bar">
             <ul>
                 <li>
-                    <a href="" class="active">Home</a>
+                    <a href="#about" class="active">About</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="">Skills</a>
-                </li>
-                <li>
-                    <a href="">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
             </ul>
         </div>
+
     </header>
+
+        <section class="s-about">
+            <div class="socials">
+                <a href="https://github.com/oviedo-13" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/a.oviedop/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/Antonio.Ovied" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+            <img src="./assets/me.jpg" alt="Antonio Oviedo">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h2>Computer science engineer<br> <span class="about-name">Antonio Oviedo</span></h2>
+                <p>dsifjsdlkfjlsdkjflk kdslfjdskljflksdjflk ldskfj dfjldskjflkdsj flkdsjflkdsjflkds flksdjflk sdlkfj sdlfjlsd flksdjf lsdkfj lsdkfjlsd flkdsfjsdlkfj dsfj sdfj sdk jf</p>                
+                <div class="about-info">
+                    <span>Email: antoniooviedo131102p@gmail.com</span>
+                    <span>Phone: +52 55 3033 7543</span>
+                    <button id="d-CV">Download CV</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-space">
+            <div></div>
+        </div>
+
+        <section id="skills">
+            <h1>Skills</h1>
+
+            <div class="skills-container">
+                <div class="card">
+                    <i class="fa-brands fa-python" style="color:#3877AC"></i>
+                    <span class="skill">Python</span>
+                    <span class="level">Advanced</span>
+                </div>
+    
+                <div class="card">
+                    <i class="fa-brands fa-js" style="color:#F0DB4E"></i>
+                    <span class="skill">JavaScript</span>
+                    <span class="level">Advanced</span>
+                </div>
+    
+                <div class="card">
+                    <i class='bx bxl-c-plus-plus' style="color:#273494"></i>
+                    <span class="skill">C++</span>
+                    <span class="level">Intermediate</span>
+                </div>
+    
+                <div class="card">
+                    <i class='bx bxl-unity' style="color:black"></i>
+                    <span class="skill">Unity</span>
+                    <span class="level">Beginner</span>
+                </div>
+    
+                <div class="card">
+                    <i class='bx bxl-typescript' style="color:#1169CA"></i>
+                    <span class="skill">TypeScript</span>
+                    <span class="level">Intermediate</span>
+                </div>
+
+                <div class="card">
+                    <svg  width="48" height="48" xmlns="http://www.w3.org/2000/svg" aria-label="Clojure" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#ffffff"/><path d="M48 107a256 256 0 0 1 464 149c0 135-142 116-142 116a163 163 0 0 0-179-265c-79-45-143 0-143 0" fill="#466acd"/><path d="M465 404a256 256 0 0 1-464-149c0-135 142-116 142-116a163 163 0 0 0 179 265c79 45 143 0 143 0" fill="#53a526"/><path d="M213 128a135 135 0 0 1 123 237c-37 3-68-108-73-125s-19-79-50-112" fill="#71aefd"/><path d="M176 365a135 135 0 0 1 2-220c36 19 59 90 59 90 0 0-54 102-61 130m33 18c0 0 38 18 89 2-30-25-48-111-53-123-7 14-43 87-36 121" fill="#81d837"/></svg>
+                    <span class="skill">Clojure</span>
+                    <span class="level">Intermediate</span>
+                </div>
+
+                <div class="card">
+                    <i class='bx bxl-html5' style="color:#F16527"></i>
+                    <span class="skill">HTML</span>
+                    <span class="level">Advanced</span>
+                </div>
+
+                <div class="card">
+                    <i class='bx bxl-mongodb' style="color:#70B45D"></i>
+                    <span class="skill">MongoDB</span>
+                    <span class="level">Beginner</span>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-database" style="color:gray"></i>
+                    <span class="skill">MySQL</span>
+                    <span class="level">Intermediate</span>
+                </div>
+
+                <div class="card">
+                    <i class="fa-brands fa-react" style="color:#02D9F5"></i>
+                    <span class="skill">React</span>
+                    <span class="level">Advanced</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- <section id="skills" class="section-m">
+        </section>
+
+        <section id="projects" class="section-m">
+        </section> -->
+
 
     <script src="./script.js"></script>
 </body>
